@@ -1,0 +1,126 @@
+@media (min-width: 1200px) {
+    .config {
+        width: 100%;
+    }
+}
+
+.config-panel {
+    box-shadow: none;
+    margin-bottom: 0
+}
+
+.config-mb30 {
+    margin-bottom: 30px
+}
+
+.config-panel-primary {
+    box-shadow: 0 1px .5px rgba(30, 30, 30, .02);
+}
+
+.config-panel-primary .config-panel-heading>i:before,
+.config-panel-primary .config-panel-heading>i:after {
+    background: #337AB7
+}
+
+.config-panel-heading {
+    color: #070707;
+    font-size: 11px;
+    text-transform: uppercase;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    background: #fff;
+    text-align: center;
+}
+.config-panel-heading>i {
+    position: relative;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.config-panel-body {
+    padding-bottom: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+.config-panel-footer {
+    border-radius: 0;
+    font-size: 12px;
+    background: #ffffff;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.config-row {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.config-column {
+    margin-top: 20px;
+
+}
+
+.left {
+    float: left
+}
+
+.font {
+    font-size: 16px;
+    color: #0c0c0d;
+    width: 90px;
+    font-weight: 200;
+}
+
+.config-name {
+    border:solid #0d47a1 1px;
+    border-radius: 5px;
+    margin-top: -3px ;
+    width: 100px;
+    height: 30px;
+    color: #000000;
+}
+
+.config-select {
+    margin-top: -4px;
+    width: 100px;
+    height: 30px;
+    line-height:30px;
+    border:solid #0d47a1 1px;
+    border-radius: 5px;
+    color: #000000;
+    background-color: #ffffff
+;
+}
+.add-config {
+    display: inline-block;
+    height: auto;
+    width: 350px;
+    padding: 10px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 4px;
+    box-shadow: rgb(204, 204, 204) 0px 2px 4px;
+    margin-top: 45px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    left: 600px;
+    z-index: 9999;
+    transition: all 3s ease-in-out;
+
+}
+
+.bt{
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #337AB7;
+    width: 90px;
+    height: 34px;
+    margin-left:50px;
+    float: left;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    border: #0c0c0d;
+}

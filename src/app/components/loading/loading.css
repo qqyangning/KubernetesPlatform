@@ -1,0 +1,44 @@
+
+
+@charset "UTF-8";
+
+@-webkit-keyframes am-rotate {
+    from {
+        background-position: 0 0; }
+
+    to {
+        background-position: -240px 0; } }
+@-webkit-keyframes am-rotate2 {
+    from {
+        background-position: 0 0; }
+
+    to {
+        background-position: -444px 0; } }
+.ui-loading {
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: url(./../../../static/images/loading_sprite.png);
+    -webkit-background-size: auto 20px;
+    -webkit-animation: am-rotate 1s steps(12) infinite;
+    margin: 10px;}
+
+.ui-loading-bright {
+    width: 40px;
+    height:40px;
+    display: block;
+    background-image: url(./../../../static/images/loading_sprite_white.png) ;
+    -webkit-background-size: auto 37px;
+    -webkit-animation: am-rotate2 1s steps(12) infinite;
+    margin-left:400px;
+    margin-top:60px;
+}
+.ui-dialog-cnt {
+    border-radius: 6px;
+    width: 40px;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    pointer-events: auto;
+    background-color:#707070;
+    position: relative;
+    font-size: 8px; }

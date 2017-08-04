@@ -1,0 +1,67 @@
+/*
+Error: Undefined variable: "$baseBgColor".
+        on line 3 of common1.scss
+
+1: body,
+2: body.ui{
+3:     background-color:$baseBgColor;
+4:     font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+5: }
+6: body,
+7: body.ui,
+8: p{
+
+Backtrace:
+common1.scss:3
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/script/tree/variable.rb:49:in `_perform'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/script/tree/node.rb:58:in `perform'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `map'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `map'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/root_node.rb:36:in `css_tree'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/plugin.rb:82:in `update_stylesheets'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/exec/base.rb:52:in `parse'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/exec/base.rb:19:in `parse!'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/bin/scss:13:in `<top (required)>'
+/usr/local/bin/scss:22:in `load'
+/usr/local/bin/scss:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$baseBgColor\".\A         on line 3 of common1.scss\A \A 1: body,\A 2: body.ui{\A 3:     background-color:$baseBgColor;\A 4:     font-family: \"lucida grande\", \"lucida sans unicode\", lucida, helvetica, \"Hiragino Sans GB\", \"Microsoft YaHei\", \"WenQuanYi Micro Hei\", sans-serif;\A 5: }\A 6: body,\A 7: body.ui,\A 8: p{"; }
